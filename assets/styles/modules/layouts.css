@@ -1,0 +1,12 @@
+:root {
+  --header-height: 50rem;
+  --section-height: 37.5rem;
+}
+
+.container {
+  --padding: clamp(1.5rem, 0.5458rem + 4.07125vw, 2.5rem);
+  --max-width: 85rem;
+
+  max-width: min(100% - var(--padding) * 2, var(--max-width));
+  margin-inline: auto;
+}

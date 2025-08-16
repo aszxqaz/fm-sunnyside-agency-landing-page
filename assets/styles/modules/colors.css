@@ -1,0 +1,61 @@
+:root {
+  --color-white: rgb(255, 255, 255);
+  --color-black: rgb(0, 0, 0);
+
+  --color-green-800: rgb(36, 85, 74);
+  --color-green-600: rgb(62, 116, 103);
+  --color-green-500: rgb(69, 141, 126);
+  --color-green-300: rgb(144, 212, 198);
+
+  --color-grey-950: rgb(36, 48, 62);
+  --color-grey-600: rgb(91, 99, 109);
+  --color-grey-550: rgb(128, 131, 151);
+  --color-grey-400: rgb(167, 170, 173);
+
+  --color-blue-950: rgb(5, 44, 59);
+  --color-blue-800: rgb(25, 83, 108);
+
+  --color-red-400: rgb(254, 119, 102);
+
+  --color-yellow-500: rgb(250, 212, 0);
+
+  --color-body: var(--color-grey-550);
+  --color-body-300: var(--color-grey-400);
+  --color-body-500: var(--color-grey-600);
+  --color-heading: var(--color-grey-950);
+  --color-heading-500: --color;
+}
+
+body {
+  color: var(--color-body);
+}
+
+.heading,
+h1,
+h2,
+h3,
+h4 {
+  color: var(--color-heading);
+}
+
+.c-blue {
+  color: var(--color-blue-800);
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    color: var(--color-blue-950);
+  }
+}
+
+.c-green {
+  color: var(--color-green-600);
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    color: var(--color-green-800);
+  }
+}

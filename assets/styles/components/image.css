@@ -1,0 +1,16 @@
+.image-wrapper {
+  --height: clamp(19.5rem, 2.3244rem + 73.28vw, 37.5rem);
+  height: var(--height) !important;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* .group__image-wrapper {
+  @media screen and (max-width: calc(60em - 1px)) {
+    height: clamp(19.5rem, 2.324rem + 73.282vw, 37.5rem);
+  }
+} */

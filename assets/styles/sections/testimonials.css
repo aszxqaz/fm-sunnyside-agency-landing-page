@@ -1,0 +1,30 @@
+.testimonials {
+  padding-inline: clamp(1.5rem, -2.078rem + 15.267vw, 5.25rem);
+  padding-block: clamp(3.4375rem, 2.4535rem + 4.1985vw, 4.46875rem);
+  text-align: center;
+
+  @media screen and (min-width: 90em) {
+    padding: 10.125rem;
+  }
+}
+
+.testimonials__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 3.5rem;
+  column-gap: 2rem;
+
+  @media screen and (min-width: 90em) {
+    flex-direction: row;
+  }
+}
+
+.testimonials__caption {
+  margin-block-end: clamp(3.5rem, 2.0687rem + 6.10687vw, 5rem);
+
+  text-transform: uppercase;
+  color: var(--color-body-300);
+  font-size: var(--fs-caption);
+  letter-spacing: var(--ls-caption);
+}

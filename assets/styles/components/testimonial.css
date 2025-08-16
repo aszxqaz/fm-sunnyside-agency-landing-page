@@ -1,0 +1,29 @@
+.testimonial {
+  display: grid;
+  justify-items: center;
+
+  max-width: 37.5rem;
+}
+
+.testimonial__image {
+  margin-bottom: 3.625rem;
+
+  width: 4.5rem;
+  height: 4.5rem;
+  border-radius: 50%;
+}
+
+.testimonial__text {
+  margin-bottom: 2rem;
+
+  color: var(--color-body-500);
+}
+
+.testimonial__name {
+  margin-bottom: 0.5rem;
+}
+
+.testimonial__position {
+  font-size: var(--fs-body-200);
+  color: var(--color-body-300);
+}

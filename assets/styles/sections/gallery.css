@@ -1,0 +1,16 @@
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  > * {
+    aspect-ratio: 1;
+  }
+
+  @media screen and (min-width: 90em) {
+    grid-template-columns: repeat(4, 1fr);
+
+    > * {
+      aspect-ratio: 0.8;
+    }
+  }
+}

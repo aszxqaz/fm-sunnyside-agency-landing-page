@@ -1,0 +1,61 @@
+@font-face {
+  font-family: "Barlow";
+  src: url("../../fonts/Barlow/Barlow-SemiBold.woff2");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Fraunces";
+  src: url("../../fonts/Fraunces/Fraunces-Black.woff2");
+  font-weight: 800;
+}
+
+:root {
+  --ff-body: "Barlow", sans-serif;
+  --ff-heading: "Fraunces", serif;
+
+  --fs-body-400: 1.125rem;
+  --fs-body-300: 1rem;
+  --fs-body-200: 0.875rem;
+  --fs-heading-900: clamp(2.625rem, 1.79rem + 3.56234vw, 3.5rem);
+  --fs-heading-400: clamp(2rem, 1.523rem + 2.0356vw, 2.5rem);
+  --fs-heading-300: 1.75rem;
+  --fs-heading-100: 1.125rem;
+  --fs-caption: 1.25rem;
+  --fs-label: 1.125rem;
+
+  --lh-body-400: 1.667;
+  --lh-body-300: 1.6875;
+  --lh-heading: 1.25;
+  --lh-caption: 1.25;
+
+  --ls-body-400: -0.00722em;
+  --ls-body-300: 0;
+  --ls-body-300-2: -0.006875em;
+  --ls-label: 0;
+  --ls-heading-400: 0;
+  --ls-heading-300: -0.00725em;
+  --ls-caption: 0.2em;
+
+  --fw-body: 600;
+  --fw-heading: 800;
+  --fw-label: 800;
+  --fw-caption: 800;
+}
+
+body {
+  font-family: var(--ff-body);
+  font-size: var(--fs-body-400);
+  font-weight: var(--fw-body);
+  line-height: var(--lh-body-400);
+  letter-spacing: var(--ls-body-400);
+}
+
+.heading,
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--ff-heading);
+  font-weight: var(--fw-heading);
+}
